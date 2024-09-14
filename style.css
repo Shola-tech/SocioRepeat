@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.password-toggle-icon {
+    cursor: pointer;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  
+  .password-toggle-icon i {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-top: 10px;
+    
+
+  }
+  .show-hide{
+    display: flex;
+    border: 1px solid #000;
+    width: 300px;
+    border-radius: 5px;
+  }
+  .show-hide input{
+    background-color: transparent;
+    border: none;
+    width:270px ;
+    outline: none;
+  }
+  .password-toggle-icon i:hover {
+    color: #000;
+  }
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+    width: 600px;
+    height: 2550px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.left input{
+width: 200px;
+height: 30px;
+padding-left: 16px;
+border-radius: 5px;
+}
+.logo{
+    margin-bottom: 15%;
+}
+.legends input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.input-flex input{
+    height: 40px;
+    width: 250px;
+    margin-right: 12px;
+    
+}
+.legends fieldset{
+    width: 517px;
+}
+.btn1 {
+    width: 100%;
+    
+    margin-top: 20px;
+       
+}
+.btn1 button{
+    width: 517px;
+    border-radius: 5px;
+    background-color: #0057ff;
+    border: none;
+    height: 50px;
+}
+.btn2 {
+    width: 517px;
+    
+    margin-top: 20px;
+       
+}
+.btn1 a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none; 
+}
+ .btn2 a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn2  button{
+    width: 517px;
+    border-radius: 12px;
+    background-color: #000;
+    border: none;
+    height: 50px;
+}
+@media screen and (max-width: 799px){
+    .left{
+        width: 600px;
+        height: 2550px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+    .left input{
+    width: 200px;
+    height: 30px;
+    }
+    .logo{
+        margin-bottom: 15%;
+    }.left{
+        width: 600px;
+        height: 2550px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .left input{
+    width: 200px;
+    height: 30px;
+    }
+    .logo{
+        margin-bottom: 15%;
+    }.left{
+        width: 600px;
+        height: 2550px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .left input{
+    width: 200px;
+    height: 30px;
+    }
+    .logo{
+        margin-bottom: 15%;
+    }.left{
+        width: 600px;
+        height: 2550px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .left input{
+    width: 200px;
+    height: 30px;
+    }
+    .logo{
+        margin-bottom: 15%;
+    }.left{
+    width: 600px;
+    height: 2550px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.left input{
+width: 150px;
+height: 30px;
+}
+.logo{
+    margin-bottom: 7%;
+}
+.input-flex{
+    display: flex;
+    margin-bottom: 20PX;
+    
+}
+.input-flex input{
+    height: 40px;
+    width: 250px;
+}
+#password {
+
+    border: none;
+}
+
+}
+h1{
+    font-size: .9rem;
+    margin-bottom: 16px;
+}
+fieldset{
+    padding: 0 1rem;
+    border: 1px solid #000;
+}
+.input-box input{
+    width: 300px;
+    height: 45px;
+    
+}
+.btnforgot{
+    width: 300px;
+    display: flex;
+    margin: 10px 0 10px;
+    justify-content: space-between;
+}
+.btnforgot a:hover{
+    text-decoration: underline;
+    transition: all ease-in .5s ;
+}
+.btnforgot button{
+    background-color: #0057ff;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+
+}
+.btnforgot a{
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 16px;
+}
